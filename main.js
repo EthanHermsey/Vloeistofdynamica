@@ -45,7 +45,7 @@ function draw() {
 	for ( let i = 0; i < particleAmount; i ++ ) {
 
 		const m = map( positions[ i * 3 + 2 ], 1, 30, 0, 1, true );
-		const c = lerpColor( colors.from, colors.to, m );
+		const c = lerpColor( colors.from, 'darkred', m );
 		c.setAlpha( 220 );
 		stroke( c );
 
