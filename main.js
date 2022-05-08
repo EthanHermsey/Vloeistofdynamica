@@ -49,9 +49,7 @@ function draw() {
 		c.setAlpha( 220 );
 		stroke( c );
 
-		line(
-			positions[ i * 3 + 0 ],
-			positions[ i * 3 + 1 ],
+		point(
 			positions[ i * 3 + 0 ],
 			positions[ i * 3 + 1 ],
 		);
